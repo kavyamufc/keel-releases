@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Keel</title>
+        <item>
+            <title>1.0.4</title>
+            <pubDate>Sat, 31 Oct 2026 12:00:02 +0530</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://kavyamufc.github.io/keel-releases/Keel-1.0.4.zip" length="3866705" type="application/octet-stream" sparkle:edSignature="DPARFgbwKzVEA2cgbj4AAFWG0U6lhRqW59HOvlUVW2aptPYJushTchu/rSa8YplkuezyB2ZcY6Xfz3WVs8fsAQ=="/>
+        </item>
+    </channel>
+</rss>
