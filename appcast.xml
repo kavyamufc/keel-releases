@@ -3,6 +3,22 @@
     <channel>
         <title>Keel</title>
         <item>
+            <title>1.3.2</title>
+            <pubDate>Sun, 01 Nov 2026 11:18:44 +0530</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://kavyamufc.github.io/keel-releases/Keel-1.3.2.zip" length="3199512" type="application/octet-stream" sparkle:edSignature="L9Fxz7PSxeocHGVaie+plRUxy9YT3GSKr+907yZb2j1XVV+GBAyKmo3KZuvq+x+fDYpiLq6JheBiEDhLrXIpDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel29-27.delta" sparkle:deltaFrom="27" length="177490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p1D4dnVbsWMbM+1a4uuWGkU2CwzZ6R+k7KI5chAvETzZDgvzSv2BZnvvS9Z6OOErHozZfttkRHsjut6Z3urmCw=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel29-25.delta" sparkle:deltaFrom="25" length="306490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d+3er21RdgnpWT07qsvPyKHvRTzoetrkKvuVsHkTKhkZaMjXVJT5BusiEOjPBPnL065//pVO9LgOKIEmLMt9CQ=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel29-22.delta" sparkle:deltaFrom="22" length="425562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PPzqJgNAoVurRJPBJMwNnPY3jKd1HpAO1utfP+fJ0c/LW11NAm/RslAUKOwCwV7AYfAjjH2sqxMshd/F4WRDCw=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel29-20.delta" sparkle:deltaFrom="20" length="516962" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="s9kjSdEouomrkNPIEFFnS9og8CjtTuMLxtFYK6iCUA3MWGfS6c/qLiuscCUPNJxIkZ/DJJUW7WLFAYaQuReFCA=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel29-18.delta" sparkle:deltaFrom="18" length="523570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TmtiNuqmKzYxoCJeSXRm3b06fBp6+LSMZ7QDizWJDMa4gH5iNdusCXFLT8yXmJbu6SPs4LPx32p97ouDjBVqBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.3.1</title>
             <pubDate>Sun, 01 Nov 2026 11:15:28 +0530</pubDate>
             <sparkle:version>27</sparkle:version>
@@ -32,22 +48,6 @@
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel25-18.delta" sparkle:deltaFrom="18" length="502138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fYI2A760LXbX4XPB90LpBiC5cVcT1RC85BzTmCeVxJolPN5TFPqGowg7mZJCzPi6UtdMxdvbHJhYp4KQDKTFCQ=="/>
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel25-15.delta" sparkle:deltaFrom="15" length="662202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hvWIpk48d2mGFDmxt2WBO30XpaK1FObZ2TGX0Itt0/FENV+94y5mrObcN210R6BwpNk4UjbdPqscwwu8hfwnBg=="/>
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel25-13.delta" sparkle:deltaFrom="13" length="746690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PDR3u7hpYFlYdJKhWT3wvJijfTYw20ddYF/KSbZSH9e/MllDU6txjWjpoQeGrx42ldGaq7KVaEL2WCRmwpUxDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.2.0</title>
-            <pubDate>Sun, 01 Nov 2026 10:39:16 +0530</pubDate>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://kavyamufc.github.io/keel-releases/Keel-1.2.0.zip" length="3152028" type="application/octet-stream" sparkle:edSignature="/PiiWVzIpZuL2ufrn0J6bPqPPAFRK3Jq1JRAnnJZdQmBGp+8Ik+4ZYlNzgY0sByCxUByKdUk2NzpGxKPmAg/AQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel22-20.delta" sparkle:deltaFrom="20" length="405426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gpNrSrYsSG/xPjvSUl70tJizziY9loUF2P5PAPNFcuddVACBYPKpHxnj1WL53xwDnzvgwjIsIA+g6EAGko79BA=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel22-18.delta" sparkle:deltaFrom="18" length="413590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dU0XI0A484TpXWinfPN0advhcBpTf3j7BplVCkqCVTWHVIBDjS1ajoL4zORmf7tBS7mrLDFeH6VHk+bGC+L6CA=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel22-15.delta" sparkle:deltaFrom="15" length="569122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q+3D0DeYheRolk9MMuj4xzLA7fyiOUKN899vGlcjN5YS06D0p4iFUUWOxeRD5WXRTb0DNQqLXmfyQw8nsnMSDA=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel22-13.delta" sparkle:deltaFrom="13" length="668090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lufi8kHg60E2lFy3hpnUX8RdG8VooL851D3+mQ0DcEekTPAQgPz59daQxwqscnVDABkHnUnj7ehxv3MyOTXWAg=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel22-12.delta" sparkle:deltaFrom="12" length="665506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NJo6zIlkEO7HAmHDFHOmubbED8V93NENexQhTOmDZANyi5Wj21NOhm0PbW7baTQaCbC5E9AgMj2yPvh3g0AODA=="/>
             </sparkle:deltas>
         </item>
     </channel>
