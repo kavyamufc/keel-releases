@@ -8,13 +8,13 @@ Keel is free.
 
 ## Download
 
-**[Download Keel (Keel-latest.zip)](https://kavyamufc.github.io/keel-releases/Keel-latest.zip)**
+**[Download Keel (Keel-latest.dmg)](https://kavyamufc.github.io/keel-releases/Keel-latest.dmg)**
 
 Keel updates itself after that.
 
 ## Install
 
-1. Unzip `Keel-latest.zip` and move **Keel.app** to your **Applications** folder.
+1. Open `Keel-latest.dmg` and drag **Keel** to **Applications**.
 2. Open Keel. The first time, macOS stops it because Keel isn't notarized by Apple yet: open
    **System Settings › Privacy & Security**, scroll down and click **Open Anyway** next to the message about Keel,
    then confirm.
@@ -33,4 +33,5 @@ itself.
 ## For Keel itself
 
 - Update feed: `https://kavyamufc.github.io/keel-releases/appcast.xml`
-- Every zip is signed with Keel's EdDSA key; Keel refuses any update that doesn't verify.
+- Every zip in the feed is signed with Keel's EdDSA key; Keel refuses any update that doesn't verify. The DMGs
+  (`Keel-latest.dmg`, `downloads/`) are for first installs and aren't part of the feed.
