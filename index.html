@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keel</title>
+<meta name="description" content="Keel keeps the apps on your Mac up to date, and checks every download before it installs it.">
+<link rel="icon" href="keel-icon.png">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f5f6f8;
+    --card: #ffffff;
+    --text: #1d1d1f;
+    --muted: #5f6368;
+    --line: #e2e4e8;
+    --accent: #0b5cff;
+    --accent-text: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161719;
+      --card: #222326;
+      --text: #f2f2f4;
+      --muted: #a1a4aa;
+      --line: #34363a;
+      --accent: #3d7bff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { text-align: center; }
+  header img.icon { width: 112px; height: 112px; }
+  h1 { font-size: 40px; margin: 8px 0 4px; letter-spacing: -0.02em; }
+  .lead { font-size: 19px; color: var(--muted); margin: 0 auto 24px; max-width: 560px; }
+  .download {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 14px 32px;
+    border-radius: 12px;
+  }
+  .download:hover { filter: brightness(1.08); }
+  .version { color: var(--muted); font-size: 14px; margin: 12px 0 0; }
+  .shot {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 40px 0 8px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  }
+  .caption { text-align: center; color: var(--muted); font-size: 13px; margin: 0 0 40px; }
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin: 0 0 16px;
+  }
+  h2 { font-size: 19px; margin: 0 0 10px; }
+  ol, ul { margin: 0; padding-left: 22px; }
+  li + li { margin-top: 8px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); }
+  .buttons { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+  .button {
+    display: inline-block;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+  }
+  .button:hover { border-color: var(--accent); }
+  footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 32px; }
+  @media (max-width: 480px) {
+    main { padding-top: 32px; }
+    h1 { font-size: 32px; }
+    .lead { font-size: 17px; }
+    .download { display: block; }
+    section { padding: 16px 18px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="icon" src="keel-icon.png" alt="">
+    <h1>Keel</h1>
+    <p class="lead">Keeps the apps on your Mac up to date, and checks every download before it installs it.</p>
+    <a class="download" href="Keel-latest.zip">Download Keel</a>
+    <p class="version"><!-- version -->Version 1.4.6 · November 2026 · macOS 14 or later<!-- /version --></p>
+  </header>
+
+  <img class="shot" src="screenshot.png" alt="Keel's Updates page, listing four app updates with one downloading">
+  <p class="caption">The Updates page, with example apps.</p>
+
+  <section>
+    <h2>Install</h2>
+    <ol>
+      <li>Unzip <b>Keel-latest.zip</b> and move <b>Keel.app</b> to your <b>Applications</b> folder.</li>
+      <li>Open Keel. The first time, macOS stops it because Keel isn't notarized by Apple yet: open
+        <b>System Settings › Privacy &amp; Security</b>, scroll down and click <b>Open Anyway</b> next to the message
+        about Keel, then confirm.</li>
+      <li>Turn on <b>App Management</b> so Keel can replace apps when it updates them:
+        <b>System Settings › Privacy &amp; Security › App Management</b>, turn on Keel (or click <b>+</b> and choose
+        Keel from Applications).</li>
+    </ol>
+    <p class="muted">Keel updates itself after that.</p>
+  </section>
+
+  <section>
+    <h2>Feedback</h2>
+    <p>Found a problem or have an idea? In Keel, <b>Help › Send Feedback…</b> opens a bug report with your Keel and
+      macOS versions filled in. Keel sends nothing itself.</p>
+    <div class="buttons">
+      <a class="button" href="https://github.com/kavyamufc/keel-releases/issues/new?template=bug_report.yml">Report a bug</a>
+      <a class="button" href="https://github.com/kavyamufc/keel-releases/issues/new?template=feature_request.yml">Suggest a feature</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Support Keel</h2>
+    <p>Keel is free. A star on GitHub helps more people find it.</p>
+    <div class="buttons">
+      <a class="button" href="https://github.com/kavyamufc/keel-releases">★ Star Keel on GitHub</a>
+    </div>
+  </section>
+
+  <footer>Thank you for using Keel. ♡</footer>
+</main>
+</body>
+</html>
