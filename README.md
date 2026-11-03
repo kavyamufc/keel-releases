@@ -1,8 +1,36 @@
-# Keel releases
+# Keel
 
-Signed builds of [Keel](https://kavyamufc.github.io/keel-releases/) and the Sparkle update feed it reads.
+Keel keeps the apps on your Mac up to date, and checks every download before it installs it: the developer's
+signature or checksum has to match, and the new copy has to come from the same developer as the one you have.
+It also covers Homebrew packages and macOS updates, and keeps a backup so you can undo an update.
 
-- Feed: `https://kavyamufc.github.io/keel-releases/appcast.xml`
-- Every zip is signed with Keel's EdDSA key; Keel refuses any download that doesn't verify.
+Keel is free.
 
-To install, download the newest `Keel-<version>.zip`, unzip it and move Keel.app to Applications.
+## Download
+
+**[Download Keel (Keel-latest.zip)](https://kavyamufc.github.io/keel-releases/Keel-latest.zip)**
+
+Keel updates itself after that.
+
+## Install
+
+1. Unzip `Keel-latest.zip` and move **Keel.app** to your **Applications** folder.
+2. Open Keel. The first time, macOS stops it because Keel isn't notarized by Apple yet: open
+   **System Settings › Privacy & Security**, scroll down and click **Open Anyway** next to the message about Keel,
+   then confirm.
+3. Turn on **App Management**, so Keel can replace apps when it updates them: **System Settings › Privacy & Security ›
+   App Management**, turn on Keel (or click **+** and choose Keel from Applications). Keel's Permissions page shows
+   whether it is on.
+
+## Feedback
+
+- [Report a bug](https://github.com/kavyamufc/keel-releases/issues/new?template=bug_report.yml)
+- [Suggest a feature](https://github.com/kavyamufc/keel-releases/issues/new?template=feature_request.yml)
+
+In Keel, **Help › Send Feedback…** opens a bug report with your Keel and macOS versions filled in. Keel sends nothing
+itself.
+
+## For Keel itself
+
+- Update feed: `https://kavyamufc.github.io/keel-releases/appcast.xml`
+- Every zip is signed with Keel's EdDSA key; Keel refuses any update that doesn't verify.

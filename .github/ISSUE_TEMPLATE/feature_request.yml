@@ -1,0 +1,17 @@
+name: Feature request
+description: An idea for Keel.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What it would help you do.
+    validations:
+      required: true

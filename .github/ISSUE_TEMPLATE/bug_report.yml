@@ -1,0 +1,40 @@
+name: Bug report
+description: Something in Keel didn't work as expected.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did and what Keel showed. A screenshot helps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: The app involved
+      description: The app (or Homebrew package) Keel was updating or checking, if any.
+  - type: input
+    id: keel-version
+    attributes:
+      label: Keel version
+      description: Keel › About Keel. Filled in when you use Help › Send Feedback.
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+    validations:
+      required: true
+  - type: input
+    id: mac
+    attributes:
+      label: Mac
+      description: Apple silicon or Intel.
