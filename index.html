@@ -60,6 +60,7 @@
     border: 1px solid var(--line);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
   }
+  video.shot { aspect-ratio: 16 / 9; background: #07112b; }
   .caption { text-align: center; color: var(--muted); font-size: 13px; margin: 0 0 40px; }
   section {
     background: var(--card);
@@ -104,8 +105,11 @@
     <p class="version"><!-- version -->Version 1.5.1 · November 2026 · macOS 14 or later<!-- /version --></p>
   </header>
 
-  <img class="shot" src="screenshot.png" alt="Keel's Updates page, listing four app updates with one downloading">
-  <p class="caption">The Updates page, with example apps.</p>
+  <video class="shot" src="keel-film.mp4" poster="film-poster.jpg" controls preload="none" playsinline
+    aria-label="Keel in 70 seconds: updating apps, checking downloads, Homebrew and macOS, pre-releases and undo">
+    <img src="screenshot.png" alt="Keel's Updates page, listing four app updates">
+  </video>
+  <p class="caption">Keel in 70 seconds, with example apps.</p>
 
   <section>
     <h2>Install</h2>
