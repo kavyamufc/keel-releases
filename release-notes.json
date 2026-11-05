@@ -1,6 +1,12 @@
 {
  "versions": [
   {
+   "version": "1.8.4",
+   "notes": [
+    "Fixes update runs that stayed on \"Waiting\" after Keel 1.8.3: App Store and Homebrew updates start again."
+   ]
+  },
+  {
    "version": "1.8.3",
    "notes": [
     "Fixes App Store and Homebrew updates that finished but stayed on their last percentage: the update is done, and the row now says so."
