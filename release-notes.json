@@ -1,6 +1,12 @@
 {
  "versions": [
   {
+   "version": "1.9.2",
+   "notes": [
+    "Each update's source (\"Homebrew ●\", \"App Store ●\") sits right next to its buttons, in the same place in every list and filter. Room for wider buttons is kept only while an update that needs them runs."
+   ]
+  },
+  {
    "version": "1.9.1",
    "notes": [
     "Install and Relaunch in the side panel works, and both buttons show \"Installing and relaunching…\" the moment you press one. If nothing happens within 30 seconds, the buttons come back.",
