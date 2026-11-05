@@ -1,6 +1,15 @@
 {
  "versions": [
   {
+   "version": "1.8.1",
+   "notes": [
+    "App Store updates through mas show real progress (\"Downloading… 45%\"), then \"Installing…\", and share the run's one Touch ID prompt.",
+    "Cancel is offered only while an App Store update waits its turn; once mas starts it can't be stopped partway.",
+    "A selected row's status and versions stay readable (white on the blue selection).",
+    "After updating from a Keel version that didn't record what you'd seen, the new version's notes still show once."
+   ]
+  },
+  {
    "version": "1.8.0",
    "notes": [
     "See what's new in each Keel version: a What's New button beside Install and Relaunch, a one-time card after Keel updates, and Help › What's New in Keel.",
