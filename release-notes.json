@@ -1,6 +1,12 @@
 {
  "versions": [
   {
+   "version": "1.8.3",
+   "notes": [
+    "Fixes App Store and Homebrew updates that finished but stayed on their last percentage: the update is done, and the row now says so."
+   ]
+  },
+  {
    "version": "1.8.2",
    "notes": [
     "App Store updates follow your own Apple Account's store: an update out there first (like WhatsApp 26.43.77 in India) now shows, marked \"Out in your store first\".",
