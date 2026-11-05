@@ -1,6 +1,13 @@
 {
  "versions": [
   {
+   "version": "1.9.3",
+   "notes": [
+    "Check Now always gets Homebrew's latest list of apps, and automatic checks refresh it every hour (was every 12), so new versions such as IntelliJ IDEA 2026.3 show the same day.",
+    "Updates says when Homebrew packages are waiting, with a button to open the Homebrew page."
+   ]
+  },
+  {
    "version": "1.9.2",
    "notes": [
     "Each update's source (\"Homebrew ●\", \"App Store ●\") sits right next to its buttons, in the same place in every list and filter. Room for wider buttons is kept only while an update that needs them runs."
