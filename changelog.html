@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What's New in Keel</title>
+<link rel="icon" href="keel-icon.png">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f5f6f8;
+    --card: #ffffff;
+    --text: #1d1d1f;
+    --muted: #5f6368;
+    --line: #e2e4e8;
+    --accent: #0b5cff;
+    --accent-text: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161719;
+      --card: #222326;
+      --text: #f2f2f4;
+      --muted: #a1a4aa;
+      --line: #34363a;
+      --accent: #3d7bff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { text-align: center; }
+  header img.icon { width: 112px; height: 112px; }
+  h1 { font-size: 40px; margin: 8px 0 4px; letter-spacing: -0.02em; }
+  .lead { font-size: 19px; color: var(--muted); margin: 0 auto 24px; max-width: 560px; }
+  .download {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 14px 32px;
+    border-radius: 12px;
+  }
+  .download:hover { filter: brightness(1.08); }
+  .version { color: var(--muted); font-size: 14px; margin: 12px 0 0; }
+  .shot {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 40px 0 8px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  }
+  video.shot { aspect-ratio: 16 / 9; background: #07112b; }
+  .caption { text-align: center; color: var(--muted); font-size: 13px; margin: 0 0 40px; }
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin: 0 0 16px;
+  }
+  h2 { font-size: 19px; margin: 0 0 10px; }
+  ol, ul { margin: 0; padding-left: 22px; }
+  li + li { margin-top: 8px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); }
+  .buttons { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+  .button {
+    display: inline-block;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+  }
+  .button:hover { border-color: var(--accent); }
+  footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 32px; }
+  @media (max-width: 480px) {
+    main { padding-top: 32px; }
+    h1 { font-size: 32px; }
+    .lead { font-size: 17px; }
+    .download { display: block; }
+    section { padding: 16px 18px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="icon" src="keel-icon.png" alt="">
+    <h1>What's New in Keel</h1>
+    <p class="lead"><a href="./">Download Keel</a></p>
+  </header>
+  <section>
+    <h2>Keel 1.8.0</h2>
+    <ul>
+  <li>See what&#x27;s new in each Keel version: a What&#x27;s New button beside Install and Relaunch, a one-time card after Keel updates, and Help › What&#x27;s New in Keel.</li>
+  <li>App Store updates open the app&#x27;s own App Store page, where the Update button works even before the Updates page lists it.</li>
+  <li>Handing an update to the App Store no longer holds up Keel: the run finishes at once, and the row offers Open in App Store and Stop Waiting.</li>
+  <li>With mas installed, App Store updates show what&#x27;s happening and the download size while they install.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.7.0</h2>
+    <ul>
+  <li>Keel&#x27;s own source catalog: hand-researched update sources for apps nothing else covers, signed and checked daily. OnyX is the first.</li>
+  <li>Not Covered apps have Ask Keel to Cover This App, which opens a ready-filled request on GitHub.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.6.1</h2>
+    <ul>
+  <li>Zoom updates are found again (two Homebrew casks claimed it).</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.6.0</h2>
+    <ul>
+  <li>Missed updates fixed: Firefox 159.0.1, Zoom, and App Store releases now show as soon as they&#x27;re out.</li>
+  <li>One Touch ID prompt per Homebrew run, right when you click.</li>
+  <li>Each row shows one status line, like &quot;Downloading… 99% · 208 of 210 MB&quot;; apps waiting for Homebrew can be cancelled.</li>
+  <li>Finished rows stay until the run ends; apps Keel quit are reopened and say so.</li>
+  <li>Docker updates keep its helper tools, so it doesn&#x27;t ask for your password; the Docker page lists your images and updates them.</li>
+  <li>New settings: Appearance, Include Keel in Update All, and Microsoft apps through Microsoft AutoUpdate.</li>
+  <li>Check Now and other second buttons are green; buttons stay off while their action runs.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.5.1</h2>
+    <ul>
+  <li>Homebrew downloads show real MB and percentage, and the rope appears as soon as you press Update.</li>
+  <li>Keel&#x27;s own update happens inside Keel, with no Sparkle windows, and installs itself after the other apps.</li>
+  <li>Quitting Keel while updates run asks first.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.5.0</h2>
+    <ul>
+  <li>Touch ID for administrator passwords.</li>
+  <li>Search moves to a bar at the bottom of each list; the top bar is see-through.</li>
+  <li>Check Now and other page buttons are tinted, and the progress rope ties a knot as it goes.</li>
+  <li>Keel downloads as a DMG: open it and drag Keel to Applications.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.4.9</h2>
+    <ul>
+  <li>The held-back line says which updates Update All leaves out, and why.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.4.8</h2>
+    <ul>
+  <li>A Pre-releases switch on Updates; pre-releases stay out of Update All and automatic installs.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.4.7</h2>
+    <ul>
+  <li>Betas, dev, nightly and canary builds are recognised as pre-releases.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.4.6</h2>
+    <ul>
+  <li>Test builds no longer take over the login item; rows sit evenly; App Store apps not listed say so.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.4.5</h2>
+    <ul>
+  <li>Row menus and tick boxes, Send Feedback and Support Keel, one password per Homebrew run, and open apps answered on their rows.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.4.4</h2>
+    <ul>
+  <li>Homebrew upgrade preview, matching page buttons, a morning check, and lower memory use.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.4.3</h2>
+    <ul>
+  <li>Homebrew rope and run bar, and a steady Homebrew header.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.4.2</h2>
+    <ul>
+  <li>See-through window, thicker rope, calmer inspector.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.4.1</h2>
+    <ul>
+  <li>The inspector follows the list; App Management shows when it&#x27;s on.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.4.0</h2>
+    <ul>
+  <li>Rope progress bars, a common update bar, and a two-tone look.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.3.2</h2>
+    <ul>
+  <li>Permissions page in the sidebar.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.3.1</h2>
+    <ul>
+  <li>Full Disk Access is no longer needed; App Management is learned from real updates.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.3.0</h2>
+    <ul>
+  <li>Permissions checklist with live status.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.2.0</h2>
+    <ul>
+  <li>Choose several apps and Update Selected; progress for each app.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.1.1</h2>
+    <ul>
+  <li>The menu bar icon matches the new app icon.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.1.0</h2>
+    <ul>
+  <li>New icon; Keel opens on Updates; Major, Minor and Patch tags.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.0.9</h2>
+    <ul>
+  <li>A tidier window: shorter sidebar, summary header, Activity.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.0.8</h2>
+    <ul>
+  <li>Housekeeping.</li>
+</ul>
+  </section>
+  <section>
+    <h2>Keel 1.0.7</h2>
+    <ul>
+  <li>Keel updates itself.</li>
+</ul>
+  </section>
+</main>
+</body>
+</html>

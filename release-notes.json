@@ -1,0 +1,169 @@
+{
+ "versions": [
+  {
+   "version": "1.8.0",
+   "notes": [
+    "See what's new in each Keel version: a What's New button beside Install and Relaunch, a one-time card after Keel updates, and Help › What's New in Keel.",
+    "App Store updates open the app's own App Store page, where the Update button works even before the Updates page lists it.",
+    "Handing an update to the App Store no longer holds up Keel: the run finishes at once, and the row offers Open in App Store and Stop Waiting.",
+    "With mas installed, App Store updates show what's happening and the download size while they install."
+   ]
+  },
+  {
+   "version": "1.7.0",
+   "notes": [
+    "Keel's own source catalog: hand-researched update sources for apps nothing else covers, signed and checked daily. OnyX is the first.",
+    "Not Covered apps have Ask Keel to Cover This App, which opens a ready-filled request on GitHub."
+   ]
+  },
+  {
+   "version": "1.6.1",
+   "notes": [
+    "Zoom updates are found again (two Homebrew casks claimed it)."
+   ]
+  },
+  {
+   "version": "1.6.0",
+   "notes": [
+    "Missed updates fixed: Firefox 159.0.1, Zoom, and App Store releases now show as soon as they're out.",
+    "One Touch ID prompt per Homebrew run, right when you click.",
+    "Each row shows one status line, like \"Downloading… 99% · 208 of 210 MB\"; apps waiting for Homebrew can be cancelled.",
+    "Finished rows stay until the run ends; apps Keel quit are reopened and say so.",
+    "Docker updates keep its helper tools, so it doesn't ask for your password; the Docker page lists your images and updates them.",
+    "New settings: Appearance, Include Keel in Update All, and Microsoft apps through Microsoft AutoUpdate.",
+    "Check Now and other second buttons are green; buttons stay off while their action runs."
+   ]
+  },
+  {
+   "version": "1.5.1",
+   "notes": [
+    "Homebrew downloads show real MB and percentage, and the rope appears as soon as you press Update.",
+    "Keel's own update happens inside Keel, with no Sparkle windows, and installs itself after the other apps.",
+    "Quitting Keel while updates run asks first."
+   ]
+  },
+  {
+   "version": "1.5.0",
+   "notes": [
+    "Touch ID for administrator passwords.",
+    "Search moves to a bar at the bottom of each list; the top bar is see-through.",
+    "Check Now and other page buttons are tinted, and the progress rope ties a knot as it goes.",
+    "Keel downloads as a DMG: open it and drag Keel to Applications."
+   ]
+  },
+  {
+   "version": "1.4.9",
+   "notes": [
+    "The held-back line says which updates Update All leaves out, and why."
+   ]
+  },
+  {
+   "version": "1.4.8",
+   "notes": [
+    "A Pre-releases switch on Updates; pre-releases stay out of Update All and automatic installs."
+   ]
+  },
+  {
+   "version": "1.4.7",
+   "notes": [
+    "Betas, dev, nightly and canary builds are recognised as pre-releases."
+   ]
+  },
+  {
+   "version": "1.4.6",
+   "notes": [
+    "Test builds no longer take over the login item; rows sit evenly; App Store apps not listed say so."
+   ]
+  },
+  {
+   "version": "1.4.5",
+   "notes": [
+    "Row menus and tick boxes, Send Feedback and Support Keel, one password per Homebrew run, and open apps answered on their rows."
+   ]
+  },
+  {
+   "version": "1.4.4",
+   "notes": [
+    "Homebrew upgrade preview, matching page buttons, a morning check, and lower memory use."
+   ]
+  },
+  {
+   "version": "1.4.3",
+   "notes": [
+    "Homebrew rope and run bar, and a steady Homebrew header."
+   ]
+  },
+  {
+   "version": "1.4.2",
+   "notes": [
+    "See-through window, thicker rope, calmer inspector."
+   ]
+  },
+  {
+   "version": "1.4.1",
+   "notes": [
+    "The inspector follows the list; App Management shows when it's on."
+   ]
+  },
+  {
+   "version": "1.4.0",
+   "notes": [
+    "Rope progress bars, a common update bar, and a two-tone look."
+   ]
+  },
+  {
+   "version": "1.3.2",
+   "notes": [
+    "Permissions page in the sidebar."
+   ]
+  },
+  {
+   "version": "1.3.1",
+   "notes": [
+    "Full Disk Access is no longer needed; App Management is learned from real updates."
+   ]
+  },
+  {
+   "version": "1.3.0",
+   "notes": [
+    "Permissions checklist with live status."
+   ]
+  },
+  {
+   "version": "1.2.0",
+   "notes": [
+    "Choose several apps and Update Selected; progress for each app."
+   ]
+  },
+  {
+   "version": "1.1.1",
+   "notes": [
+    "The menu bar icon matches the new app icon."
+   ]
+  },
+  {
+   "version": "1.1.0",
+   "notes": [
+    "New icon; Keel opens on Updates; Major, Minor and Patch tags."
+   ]
+  },
+  {
+   "version": "1.0.9",
+   "notes": [
+    "A tidier window: shorter sidebar, summary header, Activity."
+   ]
+  },
+  {
+   "version": "1.0.8",
+   "notes": [
+    "Housekeeping."
+   ]
+  },
+  {
+   "version": "1.0.7",
+   "notes": [
+    "Keel updates itself."
+   ]
+  }
+ ]
+}
