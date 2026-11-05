@@ -1,6 +1,15 @@
 {
  "versions": [
   {
+   "version": "1.9.1",
+   "notes": [
+    "Install and Relaunch in the side panel works, and both buttons show \"Installing and relaunching…\" the moment you press one. If nothing happens within 30 seconds, the buttons come back.",
+    "Release notes in the side panel read as formatted text: headings, lined-up bullets, bold and links.",
+    "Each update's source (\"Homebrew ●\", \"App Store ●\") sits in its own column before the buttons, lined up on every row.",
+    "If What's New can't load its notes after an update, Keel tries again later instead of skipping it."
+   ]
+  },
+  {
    "version": "1.9.0",
    "notes": [
     "The progress rope keeps one length while an update runs: changing percentages and buttons no longer stretch or shrink it.",
