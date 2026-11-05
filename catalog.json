@@ -8,6 +8,14 @@
       "pattern": "OnyX\\s+(?<version>\\d+(?:\\.\\d+)+)\\s+for\\s+macOS\\s+[A-Za-z ]+?\\s+(?<macos>\\d+)",
       "download": "https://www.titanium-software.fr/download/{macos}/OnyX.dmg",
       "notes": "Titanium lists one OnyX per macOS; Homebrew's onyx cask lags (5.1.1 while the site had 5.1.2, 2026-11-04)."
+    },
+    "com.todesktop.230313mzl4w4u92": {
+      "name": "Cursor",
+      "kind": "json",
+      "source": "https://api2.cursor.sh/updates/api/update/darwin-arm64/cursor/{installed}/stable",
+      "keyPath": "name",
+      "downloadKeyPath": "url",
+      "notes": "Cursor's own update service; Homebrew's cursor cask lagged (3.28.7 while the service had 3.29.9, 2026-11-05). Answers 204 when current."
     }
   }
 }
