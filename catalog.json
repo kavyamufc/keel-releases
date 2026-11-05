@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "apps": {
+    "com.titanium.OnyX": {
+      "name": "OnyX",
+      "kind": "page",
+      "source": "https://www.titanium-software.fr/en/onyx.html",
+      "pattern": "OnyX\\s+(?<version>\\d+(?:\\.\\d+)+)\\s+for\\s+macOS\\s+[A-Za-z ]+?\\s+(?<macos>\\d+)",
+      "download": "https://www.titanium-software.fr/download/{macos}/OnyX.dmg",
+      "notes": "Titanium lists one OnyX per macOS; Homebrew's onyx cask lags (5.1.1 while the site had 5.1.2, 2026-11-04)."
+    }
+  }
+}

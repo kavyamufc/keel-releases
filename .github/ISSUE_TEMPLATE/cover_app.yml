@@ -1,0 +1,29 @@
+name: Cover an app
+description: Ask Keel to find an update source for an app it can't check yet.
+title: "Cover: "
+labels: ["coverage"]
+body:
+  - type: markdown
+    attributes:
+      value: Keel filled these in from the app on your Mac. Nothing else was sent.
+  - type: input
+    id: app-name
+    attributes:
+      label: App
+    validations:
+      required: true
+  - type: input
+    id: bundle-id
+    attributes:
+      label: Bundle ID
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: Installed version
+  - type: input
+    id: where
+    attributes:
+      label: Where you got it (optional)
+      description: The developer's website or download page, if you know it.

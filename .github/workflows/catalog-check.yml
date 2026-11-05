@@ -1,0 +1,28 @@
+name: Catalog check
+# Every day, check that each entry in Keel's source catalog still answers with a version (Batch 14, 14.6).
+# A broken entry opens an issue (or comments on the open one).
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check every entry
+        id: check
+        run: python3 .github/scripts/check_catalog.py
+        continue-on-error: true
+      - name: Report broken entries
+        if: steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Catalog: entries no longer answer"
+          body="$(printf 'The daily catalog check found entries that no longer answer:\n\n%s\n\nRun: %s/%s/actions/runs/%s' "$(cat broken.txt)" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")"
+          existing="$(gh issue list --state open --search "in:title \"$title\"" --json number --jq '.[0].number')"
+          if [ -n "$existing" ]; then gh issue comment "$existing" --body "$body"; else gh issue create --title "$title" --body "$body" --label catalog || gh issue create --title "$title" --body "$body"; fi
