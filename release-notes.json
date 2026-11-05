@@ -1,6 +1,13 @@
 {
  "versions": [
   {
+   "version": "1.8.2",
+   "notes": [
+    "App Store updates follow your own Apple Account's store: an update out there first (like WhatsApp 26.43.77 in India) now shows, marked \"Out in your store first\".",
+    "Without mas, choose a second store in Settings › Updates › App Store country."
+   ]
+  },
+  {
    "version": "1.8.1",
    "notes": [
     "App Store updates through mas show real progress (\"Downloading… 45%\"), then \"Installing…\", and share the run's one Touch ID prompt.",
