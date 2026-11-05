@@ -1,6 +1,13 @@
 {
  "versions": [
   {
+   "version": "1.9.0",
+   "notes": [
+    "The progress rope keeps one length while an update runs: changing percentages and buttons no longer stretch or shrink it.",
+    "Cursor updates come from Cursor's own update service (3.29.9 while Homebrew had 3.28.7), marked \"From Keel's catalog\"."
+   ]
+  },
+  {
    "version": "1.8.4",
    "notes": [
     "Fixes update runs that stayed on \"Waiting\" after Keel 1.8.3: App Store and Homebrew updates start again."

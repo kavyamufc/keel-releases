@@ -9,7 +9,8 @@ def get(url, accept=None):
         return r.read().decode("utf-8", "ignore")
 
 def check(entry):
-    kind, source = entry["kind"], entry["source"]
+    # {installed} stands for the app's installed version; an old one makes a service answer with its latest.
+    kind, source = entry["kind"], entry["source"].replace("{installed}", "1.0.0")
     if kind == "page":
         plain = re.sub(r"<[^>]+>", " ", get(source)).replace("&nbsp;", " ")
         m = re.search(entry["pattern"].replace("(?<", "(?P<"), plain, re.I)
