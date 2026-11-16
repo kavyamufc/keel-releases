@@ -17,5 +17,149 @@
       "downloadKeyPath": "url",
       "notes": "Cursor's own update service; Homebrew's cursor cask lagged (3.28.7 while the service had 3.29.9, 2026-11-05). Answers 204 when current."
     }
+  },
+  "security": {
+    "sparkle": [
+      {
+        "id": "GHSA-hg88-v3cw-3qrh",
+        "title": "Binary delta symlink traversal (CVE-2026-47121)",
+        "fixedIn": "2.9.2"
+      },
+      {
+        "id": "GHSA-g3hp-f6mg-559v",
+        "title": "Installer accepts unvalidated connections (CVE-2026-47122)",
+        "fixedIn": "2.9.2"
+      },
+      {
+        "id": "GHSA-gmj2-gq3j-vqmj",
+        "title": "Incomplete binary delta symlink fix (CVE-2026-115568)",
+        "fixedIn": "2.9.5"
+      },
+      {
+        "id": "GHSA-3x7w-j75x-ppq5",
+        "title": "Update checked at one path, moved from another",
+        "fixedIn": "2.9.6"
+      },
+      {
+        "id": "GHSA-4v99-qgq9-6pxp",
+        "title": "Root cache cleanup follows a symlink",
+        "fixedIn": "2.9.6",
+        "affectedFrom": "2.2.0"
+      }
+    ],
+    "electron": [
+      {
+        "major": 20,
+        "endOfLife": "2023-02-08"
+      },
+      {
+        "major": 21,
+        "endOfLife": "2023-04-04"
+      },
+      {
+        "major": 22,
+        "endOfLife": "2023-10-09"
+      },
+      {
+        "major": 23,
+        "endOfLife": "2023-08-16"
+      },
+      {
+        "major": 24,
+        "endOfLife": "2023-10-11"
+      },
+      {
+        "major": 25,
+        "endOfLife": "2023-12-05"
+      },
+      {
+        "major": 26,
+        "endOfLife": "2024-02-19"
+      },
+      {
+        "major": 27,
+        "endOfLife": "2024-04-16"
+      },
+      {
+        "major": 28,
+        "endOfLife": "2024-06-10"
+      },
+      {
+        "major": 29,
+        "endOfLife": "2024-08-19"
+      },
+      {
+        "major": 30,
+        "endOfLife": "2024-10-14"
+      },
+      {
+        "major": 31,
+        "endOfLife": "2025-01-14"
+      },
+      {
+        "major": 32,
+        "endOfLife": "2025-03-03"
+      },
+      {
+        "major": 33,
+        "endOfLife": "2025-04-28"
+      },
+      {
+        "major": 34,
+        "endOfLife": "2025-06-23"
+      },
+      {
+        "major": 35,
+        "endOfLife": "2025-09-02"
+      },
+      {
+        "major": 36,
+        "endOfLife": "2025-10-27"
+      },
+      {
+        "major": 37,
+        "endOfLife": "2026-01-15"
+      },
+      {
+        "major": 38,
+        "endOfLife": "2026-03-10"
+      },
+      {
+        "major": 39,
+        "endOfLife": "2026-05-05"
+      },
+      {
+        "major": 40,
+        "endOfLife": "2026-07-01"
+      },
+      {
+        "major": 41,
+        "endOfLife": "2026-08-24"
+      },
+      {
+        "major": 42,
+        "endOfLife": "2026-10-20"
+      },
+      {
+        "major": 43,
+        "endOfLife": "2027-01-05"
+      },
+      {
+        "major": 44,
+        "endOfLife": "2027-03-02"
+      },
+      {
+        "major": 45,
+        "endOfLife": "2027-04-27"
+      },
+      {
+        "major": 46,
+        "endOfLife": "2027-06-22"
+      },
+      {
+        "major": 47,
+        "endOfLife": "2027-08-17"
+      }
+    ]
   }
 }
