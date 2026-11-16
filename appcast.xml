@@ -3,6 +3,30 @@
     <channel>
         <title>Keel</title>
         <item>
+            <title>1.11.0</title>
+            <pubDate>Mon, 16 Nov 2026 12:53:21 +0530</pubDate>
+            <sparkle:version>210</sparkle:version>
+            <sparkle:shortVersionString>1.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+  <li>A new Security page lists apps with something Keel can prove: an update the developer marked critical, an update whose notes mention a security fix, an outdated Sparkle with published security advisories, an Electron version that no longer gets security fixes, and a signature Gatekeeper doesn&#x27;t accept. Each finding says where its evidence comes from.</li>
+  <li>Security updates get a Security tag and come first on Updates.</li>
+  <li>Automatic installs can be limited to security updates (Settings, Installing).</li>
+  <li>Keel works all of this out on your Mac. The lists of affected versions come with Keel&#x27;s signed catalog, so they stay current without a new Keel, and nothing about your apps is sent anywhere.</li>
+  <li>An app whose own updater installs its new version, such as Comet, no longer has a tick box on Updates, and Select all counts only apps Keel can update.</li>
+</ul>
+]]></description>
+            <enclosure url="https://kavyamufc.github.io/keel-releases/Keel-1.11.0.zip" length="4463165" type="application/octet-stream" sparkle:edSignature="MgANvoeLs13z/81p3aM4vEH6ultNoTC/f3sz6nzVCQ0f+oVDf9ZQlYZSYIoAiSVrk5S7KOPtzcJVzRgyHjYaAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel210-206.delta" sparkle:deltaFrom="206" length="750750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XwhC1FeuwCn1BGVKXl3aM2FVtsJpVJXLvkuic2+ZMLv3xCH9B61Hi7xo0iXmVicrA2alzdSt7dq7KVMks2WBDA=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel210-194.delta" sparkle:deltaFrom="194" length="1131678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aMJOWZudtaC433tNICC4AaCPNb1KCRsx2GZTHSLIMoP0SSeu7/WLSGHw+NbDIeccwBDgacNqObuecaL/yZi+AQ=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel210-190.delta" sparkle:deltaFrom="190" length="1130490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="k2pOyLHct0hTEKCsx4lMIp01dekVxNQ+eEcN1NBpIkxXXyDPO/2CkdkYfWRU7oNXHPghKNibloj4aJh+BZVrAg=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel210-186.delta" sparkle:deltaFrom="186" length="1136906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wqnlNW9IXk3fxAj8mLvwmX7nwKvNXSxCq76WRfO/ZLx6L5NyXsN3bfxJgeWhpbuQvr6h9qq16tijyYV1FTrqDA=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel210-177.delta" sparkle:deltaFrom="177" length="1185722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LibDldLofDmJzqqod/ZEbAnpKvaKH6l3ncbRCOL+JE2n1CaShnVI3rPpLLK/088TyoNxqyk4In5o0bvU7fNJBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.10.0</title>
             <pubDate>Mon, 16 Nov 2026 11:45:59 +0530</pubDate>
             <sparkle:version>206</sparkle:version>
@@ -51,26 +75,6 @@
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel194-177.delta" sparkle:deltaFrom="177" length="582790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="06yX2lJGU88LyYCrx7nPifgvnQHy8F0f6N/U1tqSeOvHfOe3nbJRfNe6Ri+0BUUmKyn/VqxO08OySgvgYNCkAw=="/>
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel194-173.delta" sparkle:deltaFrom="173" length="624058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LTg8MqdrfD4CsEy5s8wwhW0r+QG4QKfX+/VW+QlPuB1RvCMiG3CACd9Qtl1zHO5U097o5j0wgWss4M0Q6mfUCA=="/>
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel194-169.delta" sparkle:deltaFrom="169" length="625966" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2vFWtYt4R2cny/D9o8GR3Ast7Huc/NxYueb8TsF07u51R5SPjYkJitxFMi8HZ6qO22UBxzf4gsR+6iNJlPmTAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.9.2</title>
-            <pubDate>Thu, 05 Nov 2026 17:36:41 +0530</pubDate>
-            <sparkle:version>190</sparkle:version>
-            <sparkle:shortVersionString>1.9.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<ul>
-  <li>Each update&#x27;s source (&quot;Homebrew ●&quot;, &quot;App Store ●&quot;) sits right next to its buttons, in the same place in every list and filter. Room for wider buttons is kept only while an update that needs them runs.</li>
-</ul>
-]]></description>
-            <enclosure url="https://kavyamufc.github.io/keel-releases/Keel-1.9.2.zip" length="4191585" type="application/octet-stream" sparkle:edSignature="3vlxnniPc399b4h3fCW1fMuAAjt4pWV6zO1ZsPFenrFgIk+mo7s4G3D7nIIbOQLn0ReRu8FN5IdxtMQzHHVOAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel190-186.delta" sparkle:deltaFrom="186" length="203342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nvCDTB+mRlMsqkx2lZcik9G21wTwMW24h8MImm7w7ARRe7tYmmPSDN6rJ8iXNrPQEgy0kuGGDvnDHyG2S/B7CA=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel190-177.delta" sparkle:deltaFrom="177" length="572054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eGLx6fnIKoJMgbKxe5HGGI7RFitHBm0R7S2SlHhkdWOd2MVaNb95hv8XkE7+GVvvtaHJRpojR0tKgO2PNBAAAA=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel190-173.delta" sparkle:deltaFrom="173" length="606334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1GgnRa1WA7PM9TfwtXeQRYvI5Cu1D4+cpfA4KrPEVDWojUMqvzK6NgGMITGEG+uytO2/Lqa0qsqndw4URXoGDA=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel190-169.delta" sparkle:deltaFrom="169" length="606570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ODjL9daCSZYBIJIcyB5oO33lD8p0B4IWyH6iteQI9xZkWLHJgsTt7Ex6PslFQztQMy0u16lBS3KlJtG+58l8DA=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel190-166.delta" sparkle:deltaFrom="166" length="600622" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VtQ9EsMGlTVkd/EMtMmHNQoqiirmnY8nFxoHvGbnags/BYreV61zuy2tKl8R8u4PY/Wo0OqRibyOq+bJ+9jLBQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
