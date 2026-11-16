@@ -102,7 +102,7 @@
     <h1>Keel</h1>
     <p class="lead">Keeps the apps on your Mac up to date, and checks every download before it installs it.</p>
     <a class="download" href="Keel-latest.dmg">Download Keel</a>
-    <p class="version"><!-- version -->Version 1.9.3 · November 2026 · macOS 14 or later<!-- /version --></p>
+    <p class="version"><!-- version -->Version 1.10.0 · November 2026 · macOS 14 or later<!-- /version --></p>
   </header>
 
   <video class="shot" src="keel-film.mp4" poster="film-poster.jpg" controls preload="none" playsinline
@@ -113,10 +113,19 @@
 
   <!-- whatsnew -->
   <section>
-    <h2>What's new in 1.9.3</h2>
+    <h2>What's new in 1.10.0</h2>
     <ul>
-  <li>Check Now always gets Homebrew&#x27;s latest list of apps, and automatic checks refresh it every hour (was every 12), so new versions such as IntelliJ IDEA 2026.3 show the same day.</li>
-  <li>Updates says when Homebrew packages are waiting, with a button to open the Homebrew page.</li>
+  <li>Pause a running update: Pause sits beside Cancel All, stops the downloads straight away and holds the rest; Resume carries each download on from where it stopped. An install or Homebrew upgrade already under way finishes first, and once nothing is installing you can quit without being asked to wait.</li>
+  <li>Each app counts as done the moment its own install finishes: the Updates number, the Dock badge and the menu bar go down one by one during a run, not all at the end.</li>
+  <li>Clicks in the details panel land where you click. Update, the section headers and the release-notes links no longer fold the section below by mistake.</li>
+  <li>The details panel asks about an open app itself (Quit and Update, or Skip), and its top no longer jumps when the button turns into progress.</li>
+  <li>Keel refreshes Homebrew&#x27;s catalog itself, at most once an hour, so its Homebrew count is current. The Homebrew page shows how old the catalog is.</li>
+  <li>Apps you installed with Homebrew update through Homebrew whenever Homebrew has the new version, so Homebrew&#x27;s record stays right. When Keel updated an app directly and Homebrew&#x27;s record is behind, the Homebrew page says &quot;Already 5.1.2 on disk&quot; instead of counting it, with a button to update Homebrew&#x27;s record.</li>
+  <li>Update All can also update your Homebrew packages, after the apps (Settings, Installing).</li>
+  <li>Update All can check for new updates first, so it installs what came out since the last check (Settings, Installing).</li>
+  <li>&quot;Always force quit&quot; for apps that won&#x27;t quit to be updated, such as Ollama. Keel never force quits the app you&#x27;re using. Turn it off in the app&#x27;s Automation section or its right-click menu.</li>
+  <li>A GitHub token (Settings, Sources) raises GitHub&#x27;s limit from 60 checks an hour to 5,000. It stays in your Keychain. When the limit is reached, Keel says when checks resume and keeps what it knew.</li>
+  <li>Comet and other apps with a Chrome-style updater: Keel asks their own update server and shows a newer version with Open, for the app to install itself.</li>
 </ul>
     <p class="muted"><a href="changelog.html">Every version</a></p>
   </section>
