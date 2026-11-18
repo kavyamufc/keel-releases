@@ -102,7 +102,7 @@
     <h1>Keel</h1>
     <p class="lead">Keeps the apps on your Mac up to date, and checks every download before it installs it.</p>
     <a class="download" href="Keel-latest.dmg">Download Keel</a>
-    <p class="version"><!-- version -->Version 1.11.1 · November 2026 · macOS 14 or later<!-- /version --></p>
+    <p class="version"><!-- version -->Version 1.12.0 · November 2026 · macOS 14 or later<!-- /version --></p>
   </header>
 
   <video class="shot" src="keel-film.mp4" poster="film-poster.jpg" controls preload="none" playsinline
@@ -113,9 +113,13 @@
 
   <!-- whatsnew -->
   <section>
-    <h2>What's new in 1.11.1</h2>
+    <h2>What's new in 1.12.0</h2>
     <ul>
-  <li>An app you installed with Homebrew, such as DBeaver, is counted once: the &quot;Homebrew packages waiting&quot; note on Updates, the Dock badge and the menu bar no longer count it a second time as a package. The Homebrew page still lists it.</li>
+  <li>While Keel checks, it shows how far it has got: &quot;Checking 23 of 65 · 2 updates found so far&quot;, the app it just checked, and a thin bar, on Updates, All Apps and in the menu bar panel. With Reduce Motion on, the app name stays still.</li>
+  <li>Activity says how each update happened: Automatic, By you, or Outside Keel. A control at the top shows just one kind, and the notification after an automatic run opens the automatic ones. Updates recorded before this version say nothing rather than guess.</li>
+  <li>Update runs are faster: up to three apps download at once, Homebrew and App Store updates start straight away, and each app installs as soon as its own download is checked. Updates that need your password still install together at the end.</li>
+  <li>The Updates summary names apps whose own updater installs them: &quot;4 updates are ready · 1 more installs itself&quot;.</li>
+  <li>The Security page is off the sidebar by default (Settings › General › Show Security page). Each app&#x27;s details panel shows its own findings, and security updates still sort first with their red tag.</li>
 </ul>
     <p class="muted"><a href="changelog.html">Every version</a></p>
   </section>

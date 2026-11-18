@@ -1,6 +1,16 @@
 {
  "versions": [
   {
+   "version": "1.12.0",
+   "notes": [
+    "While Keel checks, it shows how far it has got: \"Checking 23 of 65 · 2 updates found so far\", the app it just checked, and a thin bar, on Updates, All Apps and in the menu bar panel. With Reduce Motion on, the app name stays still.",
+    "Activity says how each update happened: Automatic, By you, or Outside Keel. A control at the top shows just one kind, and the notification after an automatic run opens the automatic ones. Updates recorded before this version say nothing rather than guess.",
+    "Update runs are faster: up to three apps download at once, Homebrew and App Store updates start straight away, and each app installs as soon as its own download is checked. Updates that need your password still install together at the end.",
+    "The Updates summary names apps whose own updater installs them: \"4 updates are ready · 1 more installs itself\".",
+    "The Security page is off the sidebar by default (Settings › General › Show Security page). Each app's details panel shows its own findings, and security updates still sort first with their red tag."
+   ]
+  },
+  {
    "version": "1.11.1",
    "notes": [
     "An app you installed with Homebrew, such as DBeaver, is counted once: the \"Homebrew packages waiting\" note on Updates, the Dock badge and the menu bar no longer count it a second time as a package. The Homebrew page still lists it."
