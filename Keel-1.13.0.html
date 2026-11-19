@@ -1,0 +1,6 @@
+<ul>
+  <li>Fixed: when two downloads started together, one app&#x27;s progress could show in another&#x27;s row, the bar jumped back and forth, and one download never finished (Cancel couldn&#x27;t stop it either). Each download now keeps to its own row, and the bar only moves forward.</li>
+  <li>A download never sits silently: the row says &quot;Connecting…&quot; until data arrives, a download that gets nothing for a minute starts once more on its own, and if it stalls again the row says so and the run carries on.</li>
+  <li>Homebrew apps download up to three at once and then install one at a time, and Homebrew and App Store updates now run side by side.</li>
+  <li>Keel keeps a short log of each download in ~/Library/Logs/Keel/updates.log (7 days).</li>
+</ul>

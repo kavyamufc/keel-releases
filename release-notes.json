@@ -1,6 +1,15 @@
 {
  "versions": [
   {
+   "version": "1.13.0",
+   "notes": [
+    "Fixed: when two downloads started together, one app's progress could show in another's row, the bar jumped back and forth, and one download never finished (Cancel couldn't stop it either). Each download now keeps to its own row, and the bar only moves forward.",
+    "A download never sits silently: the row says \"Connecting…\" until data arrives, a download that gets nothing for a minute starts once more on its own, and if it stalls again the row says so and the run carries on.",
+    "Homebrew apps download up to three at once and then install one at a time, and Homebrew and App Store updates now run side by side.",
+    "Keel keeps a short log of each download in ~/Library/Logs/Keel/updates.log (7 days)."
+   ]
+  },
+  {
    "version": "1.12.1",
    "notes": [
     "App Store updates show up sooner: every check now also asks your App Store account, so a new version appears as soon as your store has it, even while Apple's public listing still shows the old one or doesn't answer. Those rows say \"Out in your store first\"."
