@@ -1,6 +1,12 @@
 {
  "versions": [
   {
+   "version": "1.13.1",
+   "notes": [
+    "Fixed: on Keel's own row, What's New and Install and Relaunch sat on top of each other when Keel's update was ready. They're side by side again."
+   ]
+  },
+  {
    "version": "1.13.0",
    "notes": [
     "Fixed: when two downloads started together, one app's progress could show in another's row, the bar jumped back and forth, and one download never finished (Cancel couldn't stop it either). Each download now keeps to its own row, and the bar only moves forward.",
