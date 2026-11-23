@@ -1,6 +1,17 @@
 {
  "versions": [
   {
+   "version": "1.14.0",
+   "notes": [
+    "Homebrew updates show on Updates as soon as Homebrew knows them: when Homebrew already has a newer version of an app it installed, Updates offers it straight away, and every check now asks for Homebrew's latest list, not only Check Now.",
+    "Settings › Sources › Connections lists every server Keel has reached, what for, how many apps, and the country, with an all-time count and Export as CSV. It stays on your Mac; countries come from a table inside Keel.",
+    "Claude: when Claude's own updater has a new version ready, its row says so with a Restart Claude button. Otherwise Keel waits two days before offering a new Claude version, while Anthropic rolls it out.",
+    "After you start an update, an app Keel quit comes back in front with its window, and the row says \"reopened\" only once it really did (otherwise \"didn't come back\", with Open).",
+    "Not Covered apps get Request Coverage, ready for Keel's own request service; until it's switched on, the button opens GitHub as before.",
+    "Clearer messages when this Mac can't look up a download server (check your VPN, DNS filter or firewall app), and when a server still hands out the previous version (Keel tries again at the next check)."
+   ]
+  },
+  {
    "version": "1.13.1",
    "notes": [
     "Fixed: on Keel's own row, What's New and Install and Relaunch sat on top of each other when Keel's update was ready. They're side by side again."
