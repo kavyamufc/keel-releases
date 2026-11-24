@@ -102,7 +102,7 @@
     <h1>Keel</h1>
     <p class="lead">Keeps the apps on your Mac up to date, and checks every download before it installs it.</p>
     <a class="download" href="Keel-latest.dmg">Download Keel</a>
-    <p class="version"><!-- version -->Version 1.14.0 · November 2026 · macOS 14 or later<!-- /version --></p>
+    <p class="version"><!-- version -->Version 1.14.1 · November 2026 · macOS 14 or later<!-- /version --></p>
   </header>
 
   <video class="shot" src="keel-film.mp4" poster="film-poster.jpg" controls preload="none" playsinline
@@ -113,14 +113,9 @@
 
   <!-- whatsnew -->
   <section>
-    <h2>What's new in 1.14.0</h2>
+    <h2>What's new in 1.14.1</h2>
     <ul>
-  <li>Homebrew updates show on Updates as soon as Homebrew knows them: when Homebrew already has a newer version of an app it installed, Updates offers it straight away, and every check now asks for Homebrew&#x27;s latest list, not only Check Now.</li>
-  <li>Settings › Sources › Connections lists every server Keel has reached, what for, how many apps, and the country, with an all-time count and Export as CSV. It stays on your Mac; countries come from a table inside Keel.</li>
-  <li>Claude: when Claude&#x27;s own updater has a new version ready, its row says so with a Restart Claude button. Otherwise Keel waits two days before offering a new Claude version, while Anthropic rolls it out.</li>
-  <li>After you start an update, an app Keel quit comes back in front with its window, and the row says &quot;reopened&quot; only once it really did (otherwise &quot;didn&#x27;t come back&quot;, with Open).</li>
-  <li>Not Covered apps get Request Coverage, ready for Keel&#x27;s own request service; until it&#x27;s switched on, the button opens GitHub as before.</li>
-  <li>Clearer messages when this Mac can&#x27;t look up a download server (check your VPN, DNS filter or firewall app), and when a server still hands out the previous version (Keel tries again at the next check).</li>
+  <li>An app whose installer renames it is no longer reported as failed: after an update, Keel finds the app again by its identifier, counts the update when the new version is there, and says so (&quot;Updated to 158.0.4370.33 · now Copilot.app&quot;). Keel&#x27;s list, reopening and later updates use the new name. This happened with Microsoft 365 Copilot, which Microsoft renamed to Copilot.</li>
 </ul>
     <p class="muted"><a href="changelog.html">Every version</a></p>
   </section>

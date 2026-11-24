@@ -1,6 +1,12 @@
 {
  "versions": [
   {
+   "version": "1.14.1",
+   "notes": [
+    "An app whose installer renames it is no longer reported as failed: after an update, Keel finds the app again by its identifier, counts the update when the new version is there, and says so (\"Updated to 158.0.4370.33 · now Copilot.app\"). Keel's list, reopening and later updates use the new name. This happened with Microsoft 365 Copilot, which Microsoft renamed to Copilot."
+   ]
+  },
+  {
    "version": "1.14.0",
    "notes": [
     "Homebrew updates show on Updates as soon as Homebrew knows them: when Homebrew already has a newer version of an app it installed, Updates offers it straight away, and every check now asks for Homebrew's latest list, not only Check Now.",
