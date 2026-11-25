@@ -1,6 +1,13 @@
 {
  "versions": [
   {
+   "version": "1.14.2",
+   "notes": [
+    "Apps whose Homebrew download comes from the developer's GitHub releases are now also checked against those releases, so a new version shows on Updates even before Homebrew lists it (Vorssaint 3.4.5, for example).",
+    "While Keel checks, \"updates found so far\" counts only updates that will appear on Updates; versions Keel is holding back, and apps you ignored, snoozed or skipped, no longer count."
+   ]
+  },
+  {
    "version": "1.14.1",
    "notes": [
     "An app whose installer renames it is no longer reported as failed: after an update, Keel finds the app again by its identifier, counts the update when the new version is there, and says so (\"Updated to 158.0.4370.33 · now Copilot.app\"). Keel's list, reopening and later updates use the new name. This happened with Microsoft 365 Copilot, which Microsoft renamed to Copilot."
