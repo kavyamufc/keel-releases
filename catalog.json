@@ -16,6 +16,12 @@
       "keyPath": "name",
       "downloadKeyPath": "url",
       "notes": "Cursor's own update service; Homebrew's cursor cask lagged (3.28.7 while the service had 3.29.9, 2026-11-05). Answers 204 when current."
+    },
+    "com.vorssaint.utils": {
+      "name": "Vorssaint",
+      "kind": "github",
+      "source": "vorssaint/vorssaint-utils",
+      "notes": "The developer's GitHub releases; Homebrew's vorssaint cask lagged (3.4.4 while GitHub had 3.4.5, 2026-11-25). Vorssaint has no Sparkle feed."
     }
   },
   "security": {
