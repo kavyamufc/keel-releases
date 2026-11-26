@@ -1,6 +1,12 @@
 {
  "versions": [
   {
+   "version": "1.15.2",
+   "notes": [
+    "Support Keel now has a Buy Me a Coffee button (buymeacoffee.com/kavyaarya). Donations go towards an Apple Developer ID so Keel opens without security warnings. GitHub Sponsors follows once GitHub approves it."
+   ]
+  },
+  {
    "version": "1.15.1",
    "notes": [
     "App Store updates of an open app now go through Keel's usual step: the row asks Quit and Update or Skip, Keel quits the app itself, updates it and opens it again. The App Store no longer asks \"cannot be open during installation\" again and again.",
