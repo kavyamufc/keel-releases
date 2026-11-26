@@ -30,6 +30,12 @@ Keel updates itself after that.
 In Keel, **Help › Send Feedback…** opens a bug report with your Keel and macOS versions filled in. Keel sends nothing
 itself.
 
+## Support Keel
+
+Keel is free. If it saves you time, you can [buy me a coffee](https://buymeacoffee.com/kavyaarya). Donations go
+towards an Apple Developer ID so Keel opens without security warnings. A ★ star on this repository helps more people
+find Keel too.
+
 ## For Keel itself
 
 - Update feed: `https://kavyamufc.github.io/keel-releases/appcast.xml`
