@@ -1,6 +1,15 @@
 {
  "versions": [
   {
+   "version": "1.15.1",
+   "notes": [
+    "App Store updates of an open app now go through Keel's usual step: the row asks Quit and Update or Skip, Keel quits the app itself, updates it and opens it again. The App Store no longer asks \"cannot be open during installation\" again and again.",
+    "Keel also waits for an app's own helper processes inside the app (such as WhatsApp's ServiceExtension) and asks them to quit before the App Store installs.",
+    "If an App Store update makes no progress for 10 minutes, Keel stops it; the row says the App Store is waiting for the app to quit and nothing was changed, with Update still there.",
+    "\"User has cancelled install\" from the App Store now shows as Cancelled, not a failure, and other App Store errors show their plain description instead of a raw error dump."
+   ]
+  },
+  {
    "version": "1.15.0",
    "notes": [
     "Updates: an \"Include in Update All\" button beside \"Open Homebrew\" lets Update All update your Homebrew packages too (\"Leave out\" turns it off again). It's the same setting as in Settings.",

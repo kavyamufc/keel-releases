@@ -3,6 +3,29 @@
     <channel>
         <title>Keel</title>
         <item>
+            <title>1.15.1</title>
+            <pubDate>Thu, 26 Nov 2026 16:02:12 +0530</pubDate>
+            <sparkle:version>259</sparkle:version>
+            <sparkle:shortVersionString>1.15.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+  <li>App Store updates of an open app now go through Keel&#x27;s usual step: the row asks Quit and Update or Skip, Keel quits the app itself, updates it and opens it again. The App Store no longer asks &quot;cannot be open during installation&quot; again and again.</li>
+  <li>Keel also waits for an app&#x27;s own helper processes inside the app (such as WhatsApp&#x27;s ServiceExtension) and asks them to quit before the App Store installs.</li>
+  <li>If an App Store update makes no progress for 10 minutes, Keel stops it; the row says the App Store is waiting for the app to quit and nothing was changed, with Update still there.</li>
+  <li>&quot;User has cancelled install&quot; from the App Store now shows as Cancelled, not a failure, and other App Store errors show their plain description instead of a raw error dump.</li>
+</ul>
+]]></description>
+            <enclosure url="https://kavyamufc.github.io/keel-releases/Keel-1.15.1.zip" length="6376393" type="application/octet-stream" sparkle:edSignature="XA0/cOlbGxjnFEzlvC974TDuho16tLXYrQIpSkctuGzaA1efA41NiOzeUG2DzyhPocRfsPmiRzyUV5cCtZ3kCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-254.delta" sparkle:deltaFrom="254" length="608266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JE0omywx9JK1a4WxhgyU/AK2bhKiaRJmM7HIXwU83wAXJrFFleUL1wqJJzzB0S+GXi9vnAXeQ+aNSGoU1VWmCw=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-251.delta" sparkle:deltaFrom="251" length="831738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DSa98ewFnmfcYWrpQPdln487vsIX0QMTFMvEmlpGCtv72z43sa7cIRiPTlcml/XtjFyWeXrq1zxFblZE654tCQ=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-247.delta" sparkle:deltaFrom="247" length="852974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="b7LDfPj9yp/w+3RnpsYfrzxXJK6IkF0C60wNuLTYIGtY3zc/Tnb98cFu5dKemlX7xMzpC55jmyUSesPJQFCnAA=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-243.delta" sparkle:deltaFrom="243" length="896882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O+LHlr/m9eynfTDkdXqOPGQ1TY2bHlstyENsZTL5rZsdiCNVz+02JIXDq/cOR0ctInAIVZsSiyVixtKFZPa+CA=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-230.delta" sparkle:deltaFrom="230" length="1945326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2MlwAqvztecYuAPWR2QcilSbnfAsay+pSCbtBnKjs22DSnH+7K8USbCxb2hoYRqX+2pubPD/acmNxTAMe+vaCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.15.0</title>
             <pubDate>Thu, 26 Nov 2026 15:50:43 +0530</pubDate>
             <sparkle:version>254</sparkle:version>
@@ -48,26 +71,6 @@
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel251-230.delta" sparkle:deltaFrom="230" length="1777950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6UuB7Cwp20eWnmp94n8ANM8nI7zHsJ1WKVbht1LuA/xwhuTEsvWWS7UT/tJ2S/856UAzHGzhnArdUwglpufzBQ=="/>
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel251-227.delta" sparkle:deltaFrom="227" length="1785786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="08t3vq0iAdXpqFDlIAUENpCGUG3KvnyRRPZ0k6IoWma7ZzCMECWk0F5CPgvtol2f3UecIEze83JzbEZVw5bhAw=="/>
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel251-221.delta" sparkle:deltaFrom="221" length="1858986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0FeK+KbqapT0CwXVcbRqA7M36zH8sWZAtPRw9kkASp42j4cKQuu0sN74WUg6AZTRZm/Fb6BRRRbJdRUVWm3JBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.14.1</title>
-            <pubDate>Tue, 24 Nov 2026 15:32:29 +0530</pubDate>
-            <sparkle:version>247</sparkle:version>
-            <sparkle:shortVersionString>1.14.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<ul>
-  <li>An app whose installer renames it is no longer reported as failed: after an update, Keel finds the app again by its identifier, counts the update when the new version is there, and says so (&quot;Updated to 158.0.4370.33 · now Copilot.app&quot;). Keel&#x27;s list, reopening and later updates use the new name. This happened with Microsoft 365 Copilot, which Microsoft renamed to Copilot.</li>
-</ul>
-]]></description>
-            <enclosure url="https://kavyamufc.github.io/keel-releases/Keel-1.14.1.zip" length="6286935" type="application/octet-stream" sparkle:edSignature="CDjHT20YDH4nNwwEnu25VTHkCWfWq+/8gX72mJ5xp2gu1jn4d5AgsVBG9VVJqM/my+5XEPbImOCGvOhZ6UZUBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel247-243.delta" sparkle:deltaFrom="243" length="597786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IVwTOJr0g27IB6CrxeDgO9l4kjieqshjs3v+JqNp7wfoVgu/mBtHPm8QvkGmuWrg+5xh+sy4CsKq9p7qsDLPBQ=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel247-230.delta" sparkle:deltaFrom="230" length="1768754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="y8lGz3WGWiJnnx01iXOjMNnot5HVkdekGgYRF4EjWTpL5UN3KHQTj35eviRLW3bW487kYJ5ufEnDYnIWY6YtDA=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel247-227.delta" sparkle:deltaFrom="227" length="1779930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fY9zc3r4+uRoWaI+N8zoyCvGHnknZwV+x9wb0TRTaIFkMCMMtkVNPyhgvA9FbwhmLM/rIK/N2UI1Mz/WsMz8Bg=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel247-221.delta" sparkle:deltaFrom="221" length="1852058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XHZfoLWh5Z+hypRLI8Alt11yDGDgXt6etl2w+tvcW/09PXiIOdyVDMGt5yS+B9l+QzFoaRZoSCxDIy1A2xCZAg=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel247-219.delta" sparkle:deltaFrom="219" length="1852170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3VYszYbz/AY29bLiiE557Vct+bEcf8nUCBDNZvhAp8r1rkGzUooGPRDyVRCVaLzEKkXNamrcfQJXhPHLlTy0Aw=="/>
             </sparkle:deltas>
         </item>
     </channel>
