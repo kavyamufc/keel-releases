@@ -102,7 +102,7 @@
     <h1>Keel</h1>
     <p class="lead">Keeps the apps on your Mac up to date, and checks every download before it installs it.</p>
     <a class="download" href="Keel-latest.dmg">Download Keel</a>
-    <p class="version"><!-- version -->Version 1.14.2 · November 2026 · macOS 14 or later<!-- /version --></p>
+    <p class="version"><!-- version -->Version 1.15.0 · November 2026 · macOS 14 or later<!-- /version --></p>
   </header>
 
   <video class="shot" src="keel-film.mp4" poster="film-poster.jpg" controls preload="none" playsinline
@@ -113,10 +113,16 @@
 
   <!-- whatsnew -->
   <section>
-    <h2>What's new in 1.14.2</h2>
+    <h2>What's new in 1.15.0</h2>
     <ul>
-  <li>Apps whose Homebrew download comes from the developer&#x27;s GitHub releases are now also checked against those releases, so a new version shows on Updates even before Homebrew lists it (Vorssaint 3.4.5, for example).</li>
-  <li>While Keel checks, &quot;updates found so far&quot; counts only updates that will appear on Updates; versions Keel is holding back, and apps you ignored, snoozed or skipped, no longer count.</li>
+  <li>Updates: an &quot;Include in Update All&quot; button beside &quot;Open Homebrew&quot; lets Update All update your Homebrew packages too (&quot;Leave out&quot; turns it off again). It&#x27;s the same setting as in Settings.</li>
+  <li>Apps whose new version macOS won&#x27;t open, because Homebrew disabled the cask for failing Apple&#x27;s check, now say so on their row and offer the Download Page instead of an Update button that would fail. They aren&#x27;t counted as waiting.</li>
+  <li>When Keel refuses a download for its signature, it remembers that version and doesn&#x27;t try it again; the row offers the Download Page until a newer version comes out.</li>
+  <li>GitHub releases with several Mac files: Keel now skips command-line tools, picks the build for the newest macOS your Mac runs, and prefers the file named after the app, instead of giving up.</li>
+  <li>Cancelling the App Store&#x27;s prompt during an update now shows &quot;Cancelled · still available&quot; instead of a failure, with no popup.</li>
+  <li>App Store errors now show one clean line instead of the App Store tool&#x27;s progress bars.</li>
+  <li>The popup after Update All lists at most five apps, so its OK button is always on screen.</li>
+  <li>An update that failed but is still available is counted at the top of Updates, instead of &quot;Everything is up to date&quot;.</li>
 </ul>
     <p class="muted"><a href="changelog.html">Every version</a></p>
   </section>

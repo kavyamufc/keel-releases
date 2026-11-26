@@ -1,6 +1,19 @@
 {
  "versions": [
   {
+   "version": "1.15.0",
+   "notes": [
+    "Updates: an \"Include in Update All\" button beside \"Open Homebrew\" lets Update All update your Homebrew packages too (\"Leave out\" turns it off again). It's the same setting as in Settings.",
+    "Apps whose new version macOS won't open, because Homebrew disabled the cask for failing Apple's check, now say so on their row and offer the Download Page instead of an Update button that would fail. They aren't counted as waiting.",
+    "When Keel refuses a download for its signature, it remembers that version and doesn't try it again; the row offers the Download Page until a newer version comes out.",
+    "GitHub releases with several Mac files: Keel now skips command-line tools, picks the build for the newest macOS your Mac runs, and prefers the file named after the app, instead of giving up.",
+    "Cancelling the App Store's prompt during an update now shows \"Cancelled · still available\" instead of a failure, with no popup.",
+    "App Store errors now show one clean line instead of the App Store tool's progress bars.",
+    "The popup after Update All lists at most five apps, so its OK button is always on screen.",
+    "An update that failed but is still available is counted at the top of Updates, instead of \"Everything is up to date\"."
+   ]
+  },
+  {
    "version": "1.14.2",
    "notes": [
     "Apps whose Homebrew download comes from the developer's GitHub releases are now also checked against those releases, so a new version shows on Updates even before Homebrew lists it (Vorssaint 3.4.5, for example).",
