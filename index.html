@@ -6,6 +6,15 @@
 <title>Keel</title>
 <meta name="description" content="Keel keeps the apps on your Mac up to date, and checks every download before it installs it.">
 <link rel="icon" href="keel-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Keel">
+<meta property="og:description" content="Keeps the apps on your Mac up to date, and checks every download before it installs it.">
+<meta property="og:url" content="https://kavyamufc.github.io/keel-releases/">
+<meta property="og:image" content="https://kavyamufc.github.io/keel-releases/film-poster.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Keel">
+<meta name="twitter:description" content="Keeps the apps on your Mac up to date, and checks every download before it installs it.">
+<meta name="twitter:image" content="https://kavyamufc.github.io/keel-releases/film-poster.jpg">
 <style>
   :root {
     color-scheme: light dark;
@@ -70,6 +79,8 @@
     margin: 0 0 16px;
   }
   h2 { font-size: 19px; margin: 0 0 10px; }
+  h3 { font-size: 15px; margin: 16px 0 6px; color: var(--muted); font-weight: 600; }
+  h2 + h3 { margin-top: 0; }
   ol, ul { margin: 0; padding-left: 22px; }
   li + li { margin-top: 8px; }
   a { color: var(--accent); }
@@ -111,11 +122,44 @@
   </video>
   <p class="caption">Keel in 70 seconds, with example apps.</p>
 
+  <section>
+    <h2>What Keel does</h2>
+    <ul>
+      <li>One list for all your apps: App Store, Homebrew, Sparkle, GitHub and Microsoft apps, and apps that update
+        themselves.</li>
+      <li>Checks every download's signature and developer before it installs it, and refuses anything signed less
+        strongly than the copy you have.</li>
+      <li>Keeps a backup of the old version, so any update can be undone.</li>
+      <li>Homebrew packages and macOS updates have their own pages.</li>
+      <li>Free, with no account. Keel sends nothing about you; it only asks each app's source whether there's a
+        newer version.</li>
+    </ul>
+  </section>
+
   <!-- whatsnew -->
   <section>
-    <h2>What's new in 1.15.2</h2>
+    <h2>What's new</h2>
+    <h3>1.15.2 · 26 Nov</h3>
     <ul>
   <li>Support Keel now has a Buy Me a Coffee button (buymeacoffee.com/kavyaarya). Donations go towards an Apple Developer ID so Keel opens without security warnings. GitHub Sponsors follows once GitHub approves it.</li>
+</ul>
+    <h3>1.15.1 · 26 Nov</h3>
+    <ul>
+  <li>App Store updates of an open app now go through Keel&#x27;s usual step: the row asks Quit and Update or Skip, Keel quits the app itself, updates it and opens it again. The App Store no longer asks &quot;cannot be open during installation&quot; again and again.</li>
+  <li>Keel also waits for an app&#x27;s own helper processes inside the app (such as WhatsApp&#x27;s ServiceExtension) and asks them to quit before the App Store installs.</li>
+  <li>If an App Store update makes no progress for 10 minutes, Keel stops it; the row says the App Store is waiting for the app to quit and nothing was changed, with Update still there.</li>
+  <li>&quot;User has cancelled install&quot; from the App Store now shows as Cancelled, not a failure, and other App Store errors show their plain description instead of a raw error dump.</li>
+</ul>
+    <h3>1.15.0 · 26 Nov</h3>
+    <ul>
+  <li>Updates: an &quot;Include in Update All&quot; button beside &quot;Open Homebrew&quot; lets Update All update your Homebrew packages too (&quot;Leave out&quot; turns it off again). It&#x27;s the same setting as in Settings.</li>
+  <li>Apps whose new version macOS won&#x27;t open, because Homebrew disabled the cask for failing Apple&#x27;s check, now say so on their row and offer the Download Page instead of an Update button that would fail. They aren&#x27;t counted as waiting.</li>
+  <li>When Keel refuses a download for its signature, it remembers that version and doesn&#x27;t try it again; the row offers the Download Page until a newer version comes out.</li>
+  <li>GitHub releases with several Mac files: Keel now skips command-line tools, picks the build for the newest macOS your Mac runs, and prefers the file named after the app, instead of giving up.</li>
+  <li>Cancelling the App Store&#x27;s prompt during an update now shows &quot;Cancelled · still available&quot; instead of a failure, with no popup.</li>
+  <li>App Store errors now show one clean line instead of the App Store tool&#x27;s progress bars.</li>
+  <li>The popup after Update All lists at most five apps, so its OK button is always on screen.</li>
+  <li>An update that failed but is still available is counted at the top of Updates, instead of &quot;Everything is up to date&quot;.</li>
 </ul>
     <p class="muted"><a href="changelog.html">Every version</a></p>
   </section>
