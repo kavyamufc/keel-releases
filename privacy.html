@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keel Privacy</title>
+<meta name="description" content="Keel's privacy policy: Keel collects nothing about you.">
+<link rel="icon" href="keel-icon.png">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f5f6f8;
+    --card: #ffffff;
+    --text: #1d1d1f;
+    --muted: #5f6368;
+    --line: #e2e4e8;
+    --accent: #0b5cff;
+    --accent-text: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161719;
+      --card: #222326;
+      --text: #f2f2f4;
+      --muted: #a1a4aa;
+      --line: #34363a;
+      --accent: #3d7bff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { text-align: center; }
+  header img.icon { width: 112px; height: 112px; }
+  h1 { font-size: 40px; margin: 8px 0 4px; letter-spacing: -0.02em; }
+  .lead { font-size: 19px; color: var(--muted); margin: 0 auto 24px; max-width: 560px; }
+  .download {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 14px 32px;
+    border-radius: 12px;
+  }
+  .download:hover { filter: brightness(1.08); }
+  .version { color: var(--muted); font-size: 14px; margin: 12px 0 0; }
+  .shot {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 40px 0 8px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  }
+  video.shot { aspect-ratio: 16 / 9; background: #07112b; }
+  .caption { text-align: center; color: var(--muted); font-size: 13px; margin: 0 0 40px; }
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin: 0 0 16px;
+  }
+  h2 { font-size: 19px; margin: 0 0 10px; }
+  h3 { font-size: 15px; margin: 16px 0 6px; color: var(--muted); font-weight: 600; }
+  h2 + h3 { margin-top: 0; }
+  ol, ul { margin: 0; padding-left: 22px; }
+  li + li { margin-top: 8px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); }
+  .buttons { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+  .button {
+    display: inline-block;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+  }
+  .button:hover { border-color: var(--accent); }
+  footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 32px; }
+  @media (max-width: 480px) {
+    main { padding-top: 32px; }
+    h1 { font-size: 32px; }
+    .lead { font-size: 17px; }
+    .download { display: block; }
+    section { padding: 16px 18px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a href="./"><img class="icon" src="keel-icon.png" alt="Keel"></a>
+    <h1>Privacy</h1>
+    <p class="lead">Keel collects nothing about you. No analytics, no tracking, no account, no ads.</p>
+    <p class="version">Last updated 26 November 2026</p>
+  </header>
+
+  <section>
+    <h2>What stays on your Mac</h2>
+    <p>Everything Keel knows about your Mac stays on it: the list of your apps, the update History, backups of old
+      versions, your settings, Keel's logs and its record of which servers it contacted. None of it is uploaded.</p>
+    <p>If you add a GitHub token, it's kept in the macOS Keychain and sent only to GitHub's API.</p>
+  </section>
+
+  <section>
+    <h2>What Keel contacts</h2>
+    <p>To find updates, Keel asks each app's own update source whether there's a newer version. It sends only what that
+      question needs:</p>
+    <ul>
+      <li><b>Apps' own update feeds</b> (Sparkle and Electron feeds, Microsoft AutoUpdate): the feed address the app
+        itself uses.</li>
+      <li><b>Apple's App Store lookup</b> (itunes.apple.com): the app's identifier, such as com.example.app, and the
+        two-letter region from your Mac's settings, so the right store answers.</li>
+      <li><b>GitHub</b> (api.github.com): the name of the app's release repository.</li>
+      <li><b>Homebrew</b> (formulae.brew.sh): Keel downloads Homebrew's public list of apps; nothing about your apps
+        is sent.</li>
+      <li><b>Keel's own updates and app catalog</b> (kavyamufc.github.io): a plain download, like opening a web
+        page.</li>
+      <li><b>Downloads</b> of the updates you choose to install, from wherever the app's developer publishes them.</li>
+    </ul>
+    <p>Every request identifies itself only as "Keel/1.0 (Macintosh)". Like any connection on the internet, these
+      servers see your IP address; Keel doesn't add anything else. You can see every server Keel contacted, and why,
+      in Keel under <b>Connections</b>.</p>
+  </section>
+
+  <section>
+    <h2>Only when you click</h2>
+    <ul>
+      <li><b>Send Feedback</b> opens a GitHub issue in your browser with your Keel and macOS versions filled in. You
+        see it before anything is sent, and nothing is sent unless you submit it.</li>
+      <li><b>Request Coverage</b> asks for an app Keel can't check yet to be added. Today it opens a GitHub issue in
+        your browser with that app's name, identifier and version; nothing is sent unless you submit it.</li>
+      <li><b>Buy Me a Coffee</b> opens buymeacoffee.com in your browser. Any payment is handled by Buy Me a Coffee and
+        Stripe under their own privacy policies; Keel never sees it.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>This website</h2>
+    <p>Keel's website and downloads are hosted on GitHub Pages. GitHub may keep server logs, under
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's
+      privacy statement</a>. The site uses no cookies, analytics or trackers of its own.</p>
+  </section>
+
+  <section>
+    <h2>Questions</h2>
+    <p>Open an <a href="https://github.com/kavyamufc/keel-releases/issues">issue on GitHub</a>, or report something
+      privately through the repository's <a href="https://github.com/kavyamufc/keel-releases/security">Security</a>
+      tab. If this policy changes, the date above changes and the change is described here.</p>
+  </section>
+
+  <footer><a href="./">Keel</a> · <a href="https://github.com/kavyamufc/keel-releases/blob/main/LICENSE">License</a> ·
+    <a href="https://github.com/kavyamufc/keel-releases/security/policy">Security</a> · Privacy</footer>
+</main>
+</body>
+</html>

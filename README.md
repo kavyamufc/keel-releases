@@ -36,6 +36,12 @@ Keel is free. If it saves you time, you can [buy me a coffee](https://buymeacoff
 towards an Apple Developer ID so Keel opens without security warnings. A ★ star on this repository helps more people
 find Keel too.
 
+## License, security and privacy
+
+- [License](LICENSE): free to use and share; no warranty.
+- [Security policy](SECURITY.md): how to report a problem privately.
+- [Privacy policy](https://kavyamufc.github.io/keel-releases/privacy.html): Keel collects nothing about you.
+
 ## For Keel itself
 
 - Update feed: `https://kavyamufc.github.io/keel-releases/appcast.xml`
