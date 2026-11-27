@@ -1,6 +1,13 @@
 {
  "versions": [
   {
+   "version": "1.15.3",
+   "notes": [
+    "Apps Homebrew installed now leave the Homebrew page as soon as they're updated from Updates; before, they stayed listed until the next check or Refresh.",
+    "About Keel has a link to Keel's privacy policy."
+   ]
+  },
+  {
    "version": "1.15.2",
    "notes": [
     "Support Keel now has a Buy Me a Coffee button (buymeacoffee.com/kavyaarya). Donations go towards an Apple Developer ID so Keel opens without security warnings. GitHub Sponsors follows once GitHub approves it."

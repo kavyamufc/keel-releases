@@ -3,6 +3,27 @@
     <channel>
         <title>Keel</title>
         <item>
+            <title>1.15.3</title>
+            <pubDate>Fri, 27 Nov 2026 11:14:15 +0530</pubDate>
+            <sparkle:version>276</sparkle:version>
+            <sparkle:shortVersionString>1.15.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+  <li>Apps Homebrew installed now leave the Homebrew page as soon as they&#x27;re updated from Updates; before, they stayed listed until the next check or Refresh.</li>
+  <li>About Keel has a link to Keel&#x27;s privacy policy.</li>
+</ul>
+]]></description>
+            <enclosure url="https://kavyamufc.github.io/keel-releases/Keel-1.15.3.zip" length="6377743" type="application/octet-stream" sparkle:edSignature="sq6xbTHFrDCLV2NGawXqg6RplRB+XifIJRRDBZcR8r7wfZQLFWgxWJJ74agb+m+EgxicvjWv6/263sQoKC52Dg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel276-265.delta" sparkle:deltaFrom="265" length="356778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ROLjwNHJuhGVHBl78lajipWl/9Fe6StKYywR3OQlJyU5W7+fy49aoBcQcSXorHOjAtcY9UVJC6RpaHwIan2TBg=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel276-259.delta" sparkle:deltaFrom="259" length="358818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Gpy1ctIuUHPlv3sr8IgjdQTOoKjnOcTLK8dqaS5AaQ9IPSszWjozIbHXYpSzDH6k88ljcuf1HZKpUK3buJzQDQ=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel276-254.delta" sparkle:deltaFrom="254" length="629766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JNypMFpXUpeTrbgrEBh6wEsbSOMEyuCftV146YbxVAjsAKLgmbufXdg5VAdPYnNKIYh5C+lpD2CY4VgFI90oBQ=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel276-251.delta" sparkle:deltaFrom="251" length="833522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2ogTJDiRUCxVCVxCTQCkFu02/FaOCvGIWqYA6hr0QaJIMbQ0NArpFQYMteNggIsrXTL3+YSNB3XmnfRGVFRyDA=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel276-247.delta" sparkle:deltaFrom="247" length="862462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lhcvRkFkp0oMBuaouzo6wj14sD2kP7rZCpaq+dCCcgRHSSxmp6oexnepl9z1z2UHn7kkU47TTT8+jykcJmTxBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.15.2</title>
             <pubDate>Thu, 26 Nov 2026 16:12:12 +0530</pubDate>
             <sparkle:version>265</sparkle:version>
@@ -42,33 +63,6 @@
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-247.delta" sparkle:deltaFrom="247" length="852974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="b7LDfPj9yp/w+3RnpsYfrzxXJK6IkF0C60wNuLTYIGtY3zc/Tnb98cFu5dKemlX7xMzpC55jmyUSesPJQFCnAA=="/>
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-243.delta" sparkle:deltaFrom="243" length="896882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O+LHlr/m9eynfTDkdXqOPGQ1TY2bHlstyENsZTL5rZsdiCNVz+02JIXDq/cOR0ctInAIVZsSiyVixtKFZPa+CA=="/>
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-230.delta" sparkle:deltaFrom="230" length="1945326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2MlwAqvztecYuAPWR2QcilSbnfAsay+pSCbtBnKjs22DSnH+7K8USbCxb2hoYRqX+2pubPD/acmNxTAMe+vaCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.15.0</title>
-            <pubDate>Thu, 26 Nov 2026 15:50:43 +0530</pubDate>
-            <sparkle:version>254</sparkle:version>
-            <sparkle:shortVersionString>1.15.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<ul>
-  <li>Updates: an &quot;Include in Update All&quot; button beside &quot;Open Homebrew&quot; lets Update All update your Homebrew packages too (&quot;Leave out&quot; turns it off again). It&#x27;s the same setting as in Settings.</li>
-  <li>Apps whose new version macOS won&#x27;t open, because Homebrew disabled the cask for failing Apple&#x27;s check, now say so on their row and offer the Download Page instead of an Update button that would fail. They aren&#x27;t counted as waiting.</li>
-  <li>When Keel refuses a download for its signature, it remembers that version and doesn&#x27;t try it again; the row offers the Download Page until a newer version comes out.</li>
-  <li>GitHub releases with several Mac files: Keel now skips command-line tools, picks the build for the newest macOS your Mac runs, and prefers the file named after the app, instead of giving up.</li>
-  <li>Cancelling the App Store&#x27;s prompt during an update now shows &quot;Cancelled · still available&quot; instead of a failure, with no popup.</li>
-  <li>App Store errors now show one clean line instead of the App Store tool&#x27;s progress bars.</li>
-  <li>The popup after Update All lists at most five apps, so its OK button is always on screen.</li>
-  <li>An update that failed but is still available is counted at the top of Updates, instead of &quot;Everything is up to date&quot;.</li>
-</ul>
-]]></description>
-            <enclosure url="https://kavyamufc.github.io/keel-releases/Keel-1.15.0.zip" length="6343555" type="application/octet-stream" sparkle:edSignature="YgbZkHGQwFoNCbqN8J+gelXcRq2lmRwQbaZQuD6PrHzo0gn4l2aDf8KuWkmm7UH7SUD3FMamn19mpRebGagfCw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel254-251.delta" sparkle:deltaFrom="251" length="778070" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Suk86HUhxNo0zziYQZl0TVQ78Ey6CEGcHcqa08aCaSTB/BLAO6MsoJcMg2dgwi47D1VKlIWwqb75CGc08tIcAg=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel254-247.delta" sparkle:deltaFrom="247" length="763618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VFYhscVxo/HvgnV6JFDEKXsQ5hZPoSpAN6dsqsnezJ2EvtcHPLkkPrFbHIYxIy+Tn0V0+sCVPkSVlXAMDHp/Ag=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel254-243.delta" sparkle:deltaFrom="243" length="835066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DuNqNNmT1/QQFGJ6bmaKt8a5idRsIbGZTmyoJSgC79ao6c0ZqteIHeAaBSEOxY2yyMulwZ6YHmM5kBc4VlcLDg=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel254-230.delta" sparkle:deltaFrom="230" length="1883550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0p8eGKRhWAIbSq2jH6FrSHneQA9eLFzmJRfCjxu4l46kR7fcNVmDhY/q4sjFw0rlJ6fatrv0BbI43YjQzPFODA=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel254-227.delta" sparkle:deltaFrom="227" length="1892518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BLhF+bI7s0S+YpmbvizQhYeWbpVnQOW147UHSUYw6qt1RxTFDA8fa9J6ecpu8HRKwV+SWJbXptEA2IMFdopnAw=="/>
             </sparkle:deltas>
         </item>
     </channel>
