@@ -3,6 +3,26 @@
     <channel>
         <title>Keel</title>
         <item>
+            <title>1.15.4</title>
+            <pubDate>Fri, 27 Nov 2026 13:22:18 +0530</pubDate>
+            <sparkle:version>278</sparkle:version>
+            <sparkle:shortVersionString>1.15.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+  <li>Claude: Keel no longer offers a new version before Claude&#x27;s own updater has offered it to your Mac. Anthropic hands each version out in stages; until it&#x27;s your Mac&#x27;s turn the row reads &quot;Claude updates itself · 7.37095.0 out, not yet offered to this Mac&quot;, isn&#x27;t counted and isn&#x27;t in Update All. Once Claude has downloaded it, the row says &quot;ready: restart Claude to install&quot; with Restart Claude. To install it now anyway, use Update Anyway in the row&#x27;s ⋯ menu.</li>
+</ul>
+]]></description>
+            <enclosure url="https://kavyamufc.github.io/keel-releases/Keel-1.15.4.zip" length="6379506" type="application/octet-stream" sparkle:edSignature="IsAmwRqtt0aWjUhdfQ+TwPbsUxDxYRJhDhdolJg1JTkje+mIthmFI4pFVXRc6oOCtfzMXE0J6gNic41ks0LsAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel278-276.delta" sparkle:deltaFrom="276" length="557406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FDU8EvQTRYCrlVWwWeVIXCP8kEarWQGSDFgsSTVTB4gIEFEDwaIVrrr/GEdPRzlaLG2K8lFYTF1kZmZh7J/aCA=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel278-265.delta" sparkle:deltaFrom="265" length="540706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oPhGVsa3eiiTasBYzj2W3sHg7k8ioEsYGeTh4moBXTy7Kl4XPzCRlvxM2mZeOwwnGlZm76Z2CRIjdLHSx+z9Ag=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel278-259.delta" sparkle:deltaFrom="259" length="540438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UEiAewSKI9G3f1VjhFuV4HHr4yNkEKl9CvYSkRggpGgeDLgUdIfSt1+dw6Zuk0Xuj/n/RLJ/U7lVdDJSlUWtAg=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel278-254.delta" sparkle:deltaFrom="254" length="711958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UB+EwEaFAN8ovF7WoDQ2Q9jNE3WJAR8g52dycD7eo9P+qzIj7by0flAnZVkXQDc73owrYRd2ZsR0/TNJCqoYCg=="/>
+                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel278-251.delta" sparkle:deltaFrom="251" length="879498" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qvAyv8X/KFsgfQ9Rjoe5fqSueL1ebzsVHoBSRYh/q3V/ic2hzSWS3VmkicGWyVxUi7zz+aHD6+MCE/RFL+cZBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.15.3</title>
             <pubDate>Fri, 27 Nov 2026 11:14:15 +0530</pubDate>
             <sparkle:version>276</sparkle:version>
@@ -40,29 +60,6 @@
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel265-251.delta" sparkle:deltaFrom="251" length="833054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="y9t+ggGrtOdJ/xHcA9Dd2NalMZAghbj833jxWGZqfXB9ARHxGjFu+9PrUPjbAg1Lz8JGF8S09Rpm/16u2G+9BA=="/>
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel265-247.delta" sparkle:deltaFrom="247" length="850514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QLTNvoWeOX67m96nwLrMN/rLIfdTyl9AJbxqIS8CGLV+Pihre3e+7CATKjNEo2mgPmYueh+rtmFaVFyrJdc1CA=="/>
                 <enclosure url="https://kavyamufc.github.io/keel-releases/Keel265-243.delta" sparkle:deltaFrom="243" length="895610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dXWJ1wq1DiVDGuozS/LV0Pz1XwXXN18yEdzsilxWp4xbkuDUcv5GJWFucfoBIFKScinWIQLu8jzjPl6hJhBdDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.15.1</title>
-            <pubDate>Thu, 26 Nov 2026 16:02:12 +0530</pubDate>
-            <sparkle:version>259</sparkle:version>
-            <sparkle:shortVersionString>1.15.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<ul>
-  <li>App Store updates of an open app now go through Keel&#x27;s usual step: the row asks Quit and Update or Skip, Keel quits the app itself, updates it and opens it again. The App Store no longer asks &quot;cannot be open during installation&quot; again and again.</li>
-  <li>Keel also waits for an app&#x27;s own helper processes inside the app (such as WhatsApp&#x27;s ServiceExtension) and asks them to quit before the App Store installs.</li>
-  <li>If an App Store update makes no progress for 10 minutes, Keel stops it; the row says the App Store is waiting for the app to quit and nothing was changed, with Update still there.</li>
-  <li>&quot;User has cancelled install&quot; from the App Store now shows as Cancelled, not a failure, and other App Store errors show their plain description instead of a raw error dump.</li>
-</ul>
-]]></description>
-            <enclosure url="https://kavyamufc.github.io/keel-releases/Keel-1.15.1.zip" length="6376393" type="application/octet-stream" sparkle:edSignature="XA0/cOlbGxjnFEzlvC974TDuho16tLXYrQIpSkctuGzaA1efA41NiOzeUG2DzyhPocRfsPmiRzyUV5cCtZ3kCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-254.delta" sparkle:deltaFrom="254" length="608266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JE0omywx9JK1a4WxhgyU/AK2bhKiaRJmM7HIXwU83wAXJrFFleUL1wqJJzzB0S+GXi9vnAXeQ+aNSGoU1VWmCw=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-251.delta" sparkle:deltaFrom="251" length="831738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DSa98ewFnmfcYWrpQPdln487vsIX0QMTFMvEmlpGCtv72z43sa7cIRiPTlcml/XtjFyWeXrq1zxFblZE654tCQ=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-247.delta" sparkle:deltaFrom="247" length="852974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="b7LDfPj9yp/w+3RnpsYfrzxXJK6IkF0C60wNuLTYIGtY3zc/Tnb98cFu5dKemlX7xMzpC55jmyUSesPJQFCnAA=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-243.delta" sparkle:deltaFrom="243" length="896882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O+LHlr/m9eynfTDkdXqOPGQ1TY2bHlstyENsZTL5rZsdiCNVz+02JIXDq/cOR0ctInAIVZsSiyVixtKFZPa+CA=="/>
-                <enclosure url="https://kavyamufc.github.io/keel-releases/Keel259-230.delta" sparkle:deltaFrom="230" length="1945326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2MlwAqvztecYuAPWR2QcilSbnfAsay+pSCbtBnKjs22DSnH+7K8USbCxb2hoYRqX+2pubPD/acmNxTAMe+vaCQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

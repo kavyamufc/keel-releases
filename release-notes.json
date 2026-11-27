@@ -1,6 +1,12 @@
 {
  "versions": [
   {
+   "version": "1.15.4",
+   "notes": [
+    "Claude: Keel no longer offers a new version before Claude's own updater has offered it to your Mac. Anthropic hands each version out in stages; until it's your Mac's turn the row reads \"Claude updates itself · 7.37095.0 out, not yet offered to this Mac\", isn't counted and isn't in Update All. Once Claude has downloaded it, the row says \"ready: restart Claude to install\" with Restart Claude. To install it now anyway, use Update Anyway in the row's ⋯ menu."
+   ]
+  },
+  {
    "version": "1.15.3",
    "notes": [
     "Apps Homebrew installed now leave the Homebrew page as soon as they're updated from Updates; before, they stayed listed until the next check or Refresh.",
